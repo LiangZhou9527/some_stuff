@@ -1,0 +1,194 @@
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=1
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7f8340010000	21a022010000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 2.73766e+06	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 1.53208e+06	Effective Bandwidth(GB/S): 5.84441
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=2
+
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7fa136010000	21a043c10000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 1.37219e+06	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 3.05666e+06	Effective Bandwidth(GB/S): 11.6602
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=3
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm2
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7f7f02010000	21a065810000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 915609	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 4.58089e+06	Effective Bandwidth(GB/S): 17.4747
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=4
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm2
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm3
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7f0002010000	21a087410000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 687719	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 6.09887e+06	Effective Bandwidth(GB/S): 23.2653
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=5
+
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm2
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm3
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm4
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7fbfac010000	21a0a9010000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 550634	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 7.61722e+06	Effective Bandwidth(GB/S): 29.0574
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=6
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm2
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm3
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm4
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm5
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7f9d16010000	21a0cac10000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 459736	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 9.1233e+06	Effective Bandwidth(GB/S): 34.8026
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=7
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm2
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm3
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm4
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm5
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm6
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7f5ca8010000	21a0ec810000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 446630	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 9.39101e+06	Effective Bandwidth(GB/S): 35.8239
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build#
+root@p135-001-066:/data00/zhou/bam/bam/build# ./bin/nvm-block-bench --threads=$((1024*1024*4)) --blk_size=64 --reqs=1 --pages=$((1024*1024*4)) --queue_depth=1024 --page_size=4096 --num_blks=2097152 --gpu=0 --num_queues=135 --random=true -S 1 --n_ctrls=8
+in Controller::Controller， path = /dev/libnvm0
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm1
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm2
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm3
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm4
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm5
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm6
+SQs: 135	CQs: 135	n_qps: 135
+in Controller::Controller， path = /dev/libnvm7
+SQs: 135	CQs: 135	n_qps: 135
+n_ranges_bits: 6
+n_ranges_mask: 63
+pages_dma: 0x7fa502010000	21a10e410000
+HEREN
+Cond1
+400000 8 1 400000
+Finish Making Page Cache
+finished creating cache
+0000:18:00.0
+atlaunch kernel
+Elapsed Time: 533266	Number of Ops: 4194304	Data Size (bytes): 17179869184
+Ops/sec: 7.86531e+06	Effective Bandwidth(GB/S): 30.0038
