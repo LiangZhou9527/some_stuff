@@ -1,0 +1,458 @@
+-+-[0000:00]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-13.0-[03-04]----00.0-[04]----00.0  ASPEED Technology, Inc. ASPEED Graphics Family
+ |           +-14.0  Intel Corporation Device 1bcd
+ |           +-14.2  Intel Corporation Device 1bce
+ |           +-14.4  Intel Corporation Device 1bfe
+ |           +-15.0  Intel Corporation Device 1bff
+ |           +-16.0  Intel Corporation Device 1be0
+ |           +-16.1  Intel Corporation Device 1be1
+ |           +-16.4  Intel Corporation Device 1be4
+ |           +-1f.0  Intel Corporation Device 1b81
+ |           +-1f.4  Intel Corporation Device 1bc9
+ |           \-1f.5  Intel Corporation Device 1bca
+ +-[0000:15]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[16-1b]----00.0-[17-1b]--+-00.0-[18]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-01.0-[19]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           +-02.0-[1a]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ |                                           \-1f.0-[1b]----00.0  Broadcom / LSI PCIe Switch management endpoint
+ +-[0000:26]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0-[27]--+-00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |           |            +-00.1  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |           |            +-00.2  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |           |            +-00.3  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |           |            +-00.4  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |           |            \-00.5  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |           +-05.0-[28]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ |           \-07.0-[29]--
+ +-[0000:37]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[38-42]----00.0-[39-42]--+-00.0-[3a]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           +-01.0-[3b-40]--+-00.0-[3c-40]--+-00.0-[3d]----00.0  NVIDIA Corporation Device 22a3
+ |                                           |               |               +-01.0-[3e]----00.0  NVIDIA Corporation Device 22a3
+ |                                           |               |               +-02.0-[3f]----00.0  NVIDIA Corporation Device 22a3
+ |                                           |               |               \-03.0-[40]----00.0  NVIDIA Corporation Device 22a3
+ |                                           |               \-00.1  PMC-Sierra Inc. Device 4128
+ |                                           +-02.0-[41]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           \-03.0-[42]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ +-[0000:48]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[49-4d]----00.0-[4a-4d]--+-00.0-[4b]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-01.0-[4c]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           \-02.0-[4d]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ +-[0000:59]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[5a-5f]----00.0-[5b-5f]--+-00.0-[5c]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           +-01.0-[5d]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-02.0-[5e]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ |                                           \-1f.0-[5f]----00.0  Broadcom / LSI PCIe Switch management endpoint
+ +-[0000:6a]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           +-02.0  Intel Corporation Device 0cfe
+ |           +-03.0  Intel Corporation Ice Lake MSM
+ |           \-03.1  Intel Corporation Ice Lake PMON MSM
+ +-[0000:6b]---00.0  Intel Corporation Device 4940
+ +-[0000:6d]---00.0  Intel Corporation Device 2710
+ +-[0000:6f]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           \-02.0  Intel Corporation Device 0cfe
+ +-[0000:74]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           \-02.0  Intel Corporation Device 0cfe
+ +-[0000:79]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           \-02.0  Intel Corporation Device 0cfe
+ +-[0000:7e]-+-00.0  Intel Corporation Device 3250
+ |           +-00.1  Intel Corporation Device 3251
+ |           +-00.2  Intel Corporation Device 3252
+ |           +-00.3  Intel Corporation Ice Lake IEH
+ |           +-00.5  Intel Corporation Device 3255
+ |           +-01.0  Intel Corporation Device 3240
+ |           +-01.1  Intel Corporation Device 3241
+ |           +-01.2  Intel Corporation Device 3242
+ |           +-02.0  Intel Corporation Device 3240
+ |           +-02.1  Intel Corporation Device 3241
+ |           +-02.2  Intel Corporation Device 3242
+ |           +-03.0  Intel Corporation Device 3240
+ |           +-03.1  Intel Corporation Device 3241
+ |           +-03.2  Intel Corporation Device 3242
+ |           +-05.0  Intel Corporation Device 3245
+ |           +-05.1  Intel Corporation Device 3246
+ |           +-05.2  Intel Corporation Device 3247
+ |           +-06.0  Intel Corporation Device 3245
+ |           +-06.1  Intel Corporation Device 3246
+ |           +-06.2  Intel Corporation Device 3247
+ |           +-07.0  Intel Corporation Device 3245
+ |           +-07.1  Intel Corporation Device 3246
+ |           +-07.2  Intel Corporation Device 3247
+ |           +-08.0  Intel Corporation Device 3245
+ |           +-08.1  Intel Corporation Device 3246
+ |           +-08.2  Intel Corporation Device 3247
+ |           +-0c.0  Intel Corporation Device 324a
+ |           +-0d.0  Intel Corporation Device 324a
+ |           +-0e.0  Intel Corporation Device 324a
+ |           +-0f.0  Intel Corporation Device 324a
+ |           +-1a.0  Intel Corporation Device 2880
+ |           +-1b.0  Intel Corporation Device 2880
+ |           +-1c.0  Intel Corporation Device 2880
+ |           \-1d.0  Intel Corporation Device 2880
+ +-[0000:7f]-+-00.0  Intel Corporation Device 324c
+ |           +-00.1  Intel Corporation Device 324c
+ |           +-00.2  Intel Corporation Device 324c
+ |           +-00.3  Intel Corporation Device 324c
+ |           +-00.4  Intel Corporation Device 324c
+ |           +-00.5  Intel Corporation Device 324c
+ |           +-00.6  Intel Corporation Device 324c
+ |           +-00.7  Intel Corporation Device 324c
+ |           +-01.0  Intel Corporation Device 324c
+ |           +-01.1  Intel Corporation Device 324c
+ |           +-01.2  Intel Corporation Device 324c
+ |           +-01.3  Intel Corporation Device 324c
+ |           +-01.4  Intel Corporation Device 324c
+ |           +-01.5  Intel Corporation Device 324c
+ |           +-01.6  Intel Corporation Device 324c
+ |           +-01.7  Intel Corporation Device 324c
+ |           +-02.0  Intel Corporation Device 324c
+ |           +-02.1  Intel Corporation Device 324c
+ |           +-02.2  Intel Corporation Device 324c
+ |           +-02.3  Intel Corporation Device 324c
+ |           +-02.4  Intel Corporation Device 324c
+ |           +-02.5  Intel Corporation Device 324c
+ |           +-02.6  Intel Corporation Device 324c
+ |           +-02.7  Intel Corporation Device 324c
+ |           +-03.0  Intel Corporation Device 324c
+ |           +-03.1  Intel Corporation Device 324c
+ |           +-03.2  Intel Corporation Device 324c
+ |           +-03.3  Intel Corporation Device 324c
+ |           +-03.4  Intel Corporation Device 324c
+ |           +-03.5  Intel Corporation Device 324c
+ |           +-03.6  Intel Corporation Device 324c
+ |           +-03.7  Intel Corporation Device 324c
+ |           +-04.0  Intel Corporation Device 324c
+ |           +-04.1  Intel Corporation Device 324c
+ |           +-04.2  Intel Corporation Device 324c
+ |           +-04.3  Intel Corporation Device 324c
+ |           +-04.4  Intel Corporation Device 324c
+ |           +-04.5  Intel Corporation Device 324c
+ |           +-04.6  Intel Corporation Device 324c
+ |           +-04.7  Intel Corporation Device 324c
+ |           +-05.0  Intel Corporation Device 324c
+ |           +-05.1  Intel Corporation Device 324c
+ |           +-05.2  Intel Corporation Device 324c
+ |           +-05.3  Intel Corporation Device 324c
+ |           +-05.4  Intel Corporation Device 324c
+ |           +-05.5  Intel Corporation Device 324c
+ |           +-05.6  Intel Corporation Device 324c
+ |           +-05.7  Intel Corporation Device 324c
+ |           +-06.0  Intel Corporation Device 324c
+ |           +-06.1  Intel Corporation Device 324c
+ |           +-06.2  Intel Corporation Device 324c
+ |           +-06.3  Intel Corporation Device 324c
+ |           +-0a.0  Intel Corporation Device 324d
+ |           +-0a.1  Intel Corporation Device 324d
+ |           +-0a.2  Intel Corporation Device 324d
+ |           +-0a.3  Intel Corporation Device 324d
+ |           +-0a.4  Intel Corporation Device 324d
+ |           +-0a.5  Intel Corporation Device 324d
+ |           +-0a.6  Intel Corporation Device 324d
+ |           +-0a.7  Intel Corporation Device 324d
+ |           +-0b.0  Intel Corporation Device 324d
+ |           +-0b.1  Intel Corporation Device 324d
+ |           +-0b.2  Intel Corporation Device 324d
+ |           +-0b.3  Intel Corporation Device 324d
+ |           +-0b.4  Intel Corporation Device 324d
+ |           +-0b.5  Intel Corporation Device 324d
+ |           +-0b.6  Intel Corporation Device 324d
+ |           +-0b.7  Intel Corporation Device 324d
+ |           +-0c.0  Intel Corporation Device 324d
+ |           +-0c.1  Intel Corporation Device 324d
+ |           +-0c.2  Intel Corporation Device 324d
+ |           +-0c.3  Intel Corporation Device 324d
+ |           +-0c.4  Intel Corporation Device 324d
+ |           +-0c.5  Intel Corporation Device 324d
+ |           +-0c.6  Intel Corporation Device 324d
+ |           +-0c.7  Intel Corporation Device 324d
+ |           +-0d.0  Intel Corporation Device 324d
+ |           +-0d.1  Intel Corporation Device 324d
+ |           +-0d.2  Intel Corporation Device 324d
+ |           +-0d.3  Intel Corporation Device 324d
+ |           +-0d.4  Intel Corporation Device 324d
+ |           +-0d.5  Intel Corporation Device 324d
+ |           +-0d.6  Intel Corporation Device 324d
+ |           +-0d.7  Intel Corporation Device 324d
+ |           +-0e.0  Intel Corporation Device 324d
+ |           +-0e.1  Intel Corporation Device 324d
+ |           +-0e.2  Intel Corporation Device 324d
+ |           +-0e.3  Intel Corporation Device 324d
+ |           +-0e.4  Intel Corporation Device 324d
+ |           +-0e.5  Intel Corporation Device 324d
+ |           +-0e.6  Intel Corporation Device 324d
+ |           +-0e.7  Intel Corporation Device 324d
+ |           +-0f.0  Intel Corporation Device 324d
+ |           +-0f.1  Intel Corporation Device 324d
+ |           +-0f.2  Intel Corporation Device 324d
+ |           +-0f.3  Intel Corporation Device 324d
+ |           +-0f.4  Intel Corporation Device 324d
+ |           +-0f.5  Intel Corporation Device 324d
+ |           +-0f.6  Intel Corporation Device 324d
+ |           +-0f.7  Intel Corporation Device 324d
+ |           +-10.0  Intel Corporation Device 324d
+ |           +-10.1  Intel Corporation Device 324d
+ |           +-10.2  Intel Corporation Device 324d
+ |           +-10.3  Intel Corporation Device 324d
+ |           +-1d.0  Intel Corporation Device 344f
+ |           +-1d.1  Intel Corporation Device 3457
+ |           +-1e.0  Intel Corporation Device 3258
+ |           +-1e.1  Intel Corporation Device 3259
+ |           +-1e.2  Intel Corporation Device 325a
+ |           +-1e.3  Intel Corporation Device 325b
+ |           +-1e.4  Intel Corporation Device 325c
+ |           +-1e.5  Intel Corporation Device 325d
+ |           +-1e.6  Intel Corporation Device 325e
+ |           \-1e.7  Intel Corporation Device 325f
+ +-[0000:80]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           \-00.4  Intel Corporation Device 0b23
+ +-[0000:97]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[98-9c]----00.0-[99-9c]--+-00.0-[9a]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-01.0-[9b]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           \-02.0-[9c]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ +-[0000:a7]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[a8]--+-00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                        +-00.1  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |                        +-00.2  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |                        +-00.3  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |                        +-00.4  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ |                        \-00.5  Mellanox Technologies ConnectX Family mlx5Gen Virtual Function
+ +-[0000:b7]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[b8-bd]----00.0-[b9-bd]--+-00.0-[ba]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           +-01.0-[bb]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-02.0-[bc]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ |                                           \-1f.0-[bd]----00.0  Broadcom / LSI PCIe Switch management endpoint
+ +-[0000:c7]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[c8-cc]----00.0-[c9-cc]--+-00.0-[ca]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-01.0-[cb]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           \-02.0-[cc]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ +-[0000:d7]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[d8-dd]----00.0-[d9-dd]--+-00.0-[da]----00.0  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+ |                                           +-01.0-[db]----00.0  NVIDIA Corporation GH100 [H800]
+ |                                           +-02.0-[dc]----00.0  Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller]
+ |                                           \-1f.0-[dd]----00.0  Broadcom / LSI PCIe Switch management endpoint
+ +-[0000:e7]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           +-02.0  Intel Corporation Device 0cfe
+ |           +-03.0  Intel Corporation Ice Lake MSM
+ |           \-03.1  Intel Corporation Ice Lake PMON MSM
+ +-[0000:e8]---00.0  Intel Corporation Device 4940
+ +-[0000:ea]---00.0  Intel Corporation Device 2710
+ +-[0000:ec]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           \-02.0  Intel Corporation Device 0cfe
+ +-[0000:f1]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           \-02.0  Intel Corporation Device 0cfe
+ +-[0000:f6]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           +-01.0  Intel Corporation Device 0b25
+ |           \-02.0  Intel Corporation Device 0cfe
+ +-[0000:fe]-+-00.0  Intel Corporation Device 3250
+ |           +-00.1  Intel Corporation Device 3251
+ |           +-00.2  Intel Corporation Device 3252
+ |           +-00.3  Intel Corporation Ice Lake IEH
+ |           +-00.5  Intel Corporation Device 3255
+ |           +-01.0  Intel Corporation Device 3240
+ |           +-01.1  Intel Corporation Device 3241
+ |           +-01.2  Intel Corporation Device 3242
+ |           +-02.0  Intel Corporation Device 3240
+ |           +-02.1  Intel Corporation Device 3241
+ |           +-02.2  Intel Corporation Device 3242
+ |           +-03.0  Intel Corporation Device 3240
+ |           +-03.1  Intel Corporation Device 3241
+ |           +-03.2  Intel Corporation Device 3242
+ |           +-05.0  Intel Corporation Device 3245
+ |           +-05.1  Intel Corporation Device 3246
+ |           +-05.2  Intel Corporation Device 3247
+ |           +-06.0  Intel Corporation Device 3245
+ |           +-06.1  Intel Corporation Device 3246
+ |           +-06.2  Intel Corporation Device 3247
+ |           +-07.0  Intel Corporation Device 3245
+ |           +-07.1  Intel Corporation Device 3246
+ |           +-07.2  Intel Corporation Device 3247
+ |           +-08.0  Intel Corporation Device 3245
+ |           +-08.1  Intel Corporation Device 3246
+ |           +-08.2  Intel Corporation Device 3247
+ |           +-0c.0  Intel Corporation Device 324a
+ |           +-0d.0  Intel Corporation Device 324a
+ |           +-0e.0  Intel Corporation Device 324a
+ |           +-0f.0  Intel Corporation Device 324a
+ |           +-1a.0  Intel Corporation Device 2880
+ |           +-1b.0  Intel Corporation Device 2880
+ |           +-1c.0  Intel Corporation Device 2880
+ |           \-1d.0  Intel Corporation Device 2880
+ \-[0000:ff]-+-00.0  Intel Corporation Device 324c
+             +-00.1  Intel Corporation Device 324c
+             +-00.2  Intel Corporation Device 324c
+             +-00.3  Intel Corporation Device 324c
+             +-00.4  Intel Corporation Device 324c
+             +-00.5  Intel Corporation Device 324c
+             +-00.6  Intel Corporation Device 324c
+             +-00.7  Intel Corporation Device 324c
+             +-01.0  Intel Corporation Device 324c
+             +-01.1  Intel Corporation Device 324c
+             +-01.2  Intel Corporation Device 324c
+             +-01.3  Intel Corporation Device 324c
+             +-01.4  Intel Corporation Device 324c
+             +-01.5  Intel Corporation Device 324c
+             +-01.6  Intel Corporation Device 324c
+             +-01.7  Intel Corporation Device 324c
+             +-02.0  Intel Corporation Device 324c
+             +-02.1  Intel Corporation Device 324c
+             +-02.2  Intel Corporation Device 324c
+             +-02.3  Intel Corporation Device 324c
+             +-02.4  Intel Corporation Device 324c
+             +-02.5  Intel Corporation Device 324c
+             +-02.6  Intel Corporation Device 324c
+             +-02.7  Intel Corporation Device 324c
+             +-03.0  Intel Corporation Device 324c
+             +-03.1  Intel Corporation Device 324c
+             +-03.2  Intel Corporation Device 324c
+             +-03.3  Intel Corporation Device 324c
+             +-03.4  Intel Corporation Device 324c
+             +-03.5  Intel Corporation Device 324c
+             +-03.6  Intel Corporation Device 324c
+             +-03.7  Intel Corporation Device 324c
+             +-04.0  Intel Corporation Device 324c
+             +-04.1  Intel Corporation Device 324c
+             +-04.2  Intel Corporation Device 324c
+             +-04.3  Intel Corporation Device 324c
+             +-04.4  Intel Corporation Device 324c
+             +-04.5  Intel Corporation Device 324c
+             +-04.6  Intel Corporation Device 324c
+             +-04.7  Intel Corporation Device 324c
+             +-05.0  Intel Corporation Device 324c
+             +-05.1  Intel Corporation Device 324c
+             +-05.2  Intel Corporation Device 324c
+             +-05.3  Intel Corporation Device 324c
+             +-05.4  Intel Corporation Device 324c
+             +-05.5  Intel Corporation Device 324c
+             +-05.6  Intel Corporation Device 324c
+             +-05.7  Intel Corporation Device 324c
+             +-06.0  Intel Corporation Device 324c
+             +-06.1  Intel Corporation Device 324c
+             +-06.2  Intel Corporation Device 324c
+             +-06.3  Intel Corporation Device 324c
+             +-0a.0  Intel Corporation Device 324d
+             +-0a.1  Intel Corporation Device 324d
+             +-0a.2  Intel Corporation Device 324d
+             +-0a.3  Intel Corporation Device 324d
+             +-0a.4  Intel Corporation Device 324d
+             +-0a.5  Intel Corporation Device 324d
+             +-0a.6  Intel Corporation Device 324d
+             +-0a.7  Intel Corporation Device 324d
+             +-0b.0  Intel Corporation Device 324d
+             +-0b.1  Intel Corporation Device 324d
+             +-0b.2  Intel Corporation Device 324d
+             +-0b.3  Intel Corporation Device 324d
+             +-0b.4  Intel Corporation Device 324d
+             +-0b.5  Intel Corporation Device 324d
+             +-0b.6  Intel Corporation Device 324d
+             +-0b.7  Intel Corporation Device 324d
+             +-0c.0  Intel Corporation Device 324d
+             +-0c.1  Intel Corporation Device 324d
+             +-0c.2  Intel Corporation Device 324d
+             +-0c.3  Intel Corporation Device 324d
+             +-0c.4  Intel Corporation Device 324d
+             +-0c.5  Intel Corporation Device 324d
+             +-0c.6  Intel Corporation Device 324d
+             +-0c.7  Intel Corporation Device 324d
+             +-0d.0  Intel Corporation Device 324d
+             +-0d.1  Intel Corporation Device 324d
+             +-0d.2  Intel Corporation Device 324d
+             +-0d.3  Intel Corporation Device 324d
+             +-0d.4  Intel Corporation Device 324d
+             +-0d.5  Intel Corporation Device 324d
+             +-0d.6  Intel Corporation Device 324d
+             +-0d.7  Intel Corporation Device 324d
+             +-0e.0  Intel Corporation Device 324d
+             +-0e.1  Intel Corporation Device 324d
+             +-0e.2  Intel Corporation Device 324d
+             +-0e.3  Intel Corporation Device 324d
+             +-0e.4  Intel Corporation Device 324d
+             +-0e.5  Intel Corporation Device 324d
+             +-0e.6  Intel Corporation Device 324d
+             +-0e.7  Intel Corporation Device 324d
+             +-0f.0  Intel Corporation Device 324d
+             +-0f.1  Intel Corporation Device 324d
+             +-0f.2  Intel Corporation Device 324d
+             +-0f.3  Intel Corporation Device 324d
+             +-0f.4  Intel Corporation Device 324d
+             +-0f.5  Intel Corporation Device 324d
+             +-0f.6  Intel Corporation Device 324d
+             +-0f.7  Intel Corporation Device 324d
+             +-10.0  Intel Corporation Device 324d
+             +-10.1  Intel Corporation Device 324d
+             +-10.2  Intel Corporation Device 324d
+             +-10.3  Intel Corporation Device 324d
+             +-1d.0  Intel Corporation Device 344f
+             +-1d.1  Intel Corporation Device 3457
+             +-1e.0  Intel Corporation Device 3258
+             +-1e.1  Intel Corporation Device 3259
+             +-1e.2  Intel Corporation Device 325a
+             +-1e.3  Intel Corporation Device 325b
+             +-1e.4  Intel Corporation Device 325c
+             +-1e.5  Intel Corporation Device 325d
+             +-1e.6  Intel Corporation Device 325e
+             \-1e.7  Intel Corporation Device 325f
